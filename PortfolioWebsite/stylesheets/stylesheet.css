@@ -1,0 +1,182 @@
+/******************************************
+*  Author : Mabel  
+*  Created On : Fri Aug 21 2020
+*  File : stylesheet.css
+*******************************************/
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width:100vw;
+height: 100vh;
+color: black;
+}
+
+header, footer{
+    background-color: black;
+    color: white;  
+}
+.title{
+    font-size: 200%;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+}
+footer{
+    font-size: .75rem;
+}
+.menu{
+    overflow: hidden;
+    position: relative;
+    font-size: 200%;
+    font-variant-caps: all-small-caps;
+
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 95%;
+}
+  .active {
+    background-color:rgb(31, 32, 34);
+    color: white;
+    padding-left: 6%;
+    font-size: 95%;
+  }
+  .menu a:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-size: 95%;
+  }
+#myLinks {
+    display: none;
+    font-size: 95%;
+  }
+.intro{
+    background-image: url(https://directlinedev.com/media/services/service/background/header_video_bg_2_8u7ZTZM.wide.jpeg);
+    height: 46vh;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 50%;
+    border: slategrey 1px;
+}
+section{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    padding: 1%;
+}
+.menu a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5%;
+}
+
+#pic{
+padding: 1%;
+width: 90vw;
+position: relative;
+}
+
+button{
+    margin:0 auto;
+    display:block;
+}
+#info{
+text-align: center;
+}
+#WA{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 2%;
+    box-shadow:  1em 1em 1em black
+}
+#homeintro{
+    margin: -1%;
+}
+p{
+    text-indent: 1em;
+    text-align: center;
+    padding: 0%;
+}
+#cm{
+    font-variant-caps: all-small-caps;
+    font-size: 7vh;
+    margin: 0 auto;
+}
+.carousel-slide{
+    visibility: hidden;
+    position: fixed;
+}
+h4{
+    text-decoration: underline;
+}
+@media all and (min-width: 500px) {
+    #myLinks{
+        display: inline-block;
+    }
+    .icon{
+        visibility: hidden;
+    }
+    header{
+        float: left;
+        width: 25vw;
+        height: 150vh;
+        display: block;
+        margin-bottom: -2%;
+        margin-left: -2%;
+        margin-top: -1%;
+        padding: 1%;
+    }
+    #right{
+        width: 75vw;
+        height: 100vh;
+        float: right;
+        margin:0;
+        padding: 0;
+
+    }
+    #pic{
+        width: 70%;
+    }
+
+
+  footer{
+      position: fixed;
+      bottom: 0;
+      width: 100vw;
+  }
+  .intro{
+      margin: -1.4%;
+      margin-top: -3%;
+  }
+button{
+    position: relative;
+    left: 39%;
+}
+#words{
+margin-top: 6%;
+padding-bottom: 2%;
+}
+.homestuff{
+    margin-top: 2%;
+}
+.carousel-slide{
+max-width: 35%;
+height: auto;
+float: left;
+margin-top: 5%;
+visibility: visible;
+position: relative;
+padding: 2%;
+
+}
+
+}
