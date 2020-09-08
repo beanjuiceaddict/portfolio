@@ -1,0 +1,64 @@
+<!-- ******************************************
+*  Author : Mabel 
+*  Created On : Fri Aug 21 2020
+*  File : index.html
+******************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="pics/blackmoon.png" />
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <title>MabelSpace | Projects</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section id="left">
+<header>
+    <h2 class="title">Mabel Space</h2>
+    <div class="menu">
+        <a href="projects.html" class = "active">Projects</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+			<a href="index.html">Home</a>
+            <a href="contactme.html">Contact Me</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-xs"></i>
+        </a>
+      </div>
+</header>
+</section>
+    <section id="right">
+    <section class="strawberry">
+        <img id="pic" src="pics/berries.png" alt="strawberry prototype website snapshot">
+        <h3>Strawberry Farms Website</h3>
+<p>This is a sample website created to demonstrate some of my skills! It is a simple hypothetical website for a Strawberry Farm in Washington! It is the very first website I created! </p>
+<a target="blank" href="https://beanjuiceaddict.github.io/strawberryfields/index.html">Click Me To See This Masterpiece Yourself!</a>
+    </section><br>
+  </section>
+    <script>
+        function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } 
+        else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+<footer>
+  Copyright &copy; 2020 MabelSpace. All rights reserved. 
+</footer>
+
+</body>
+</html>
